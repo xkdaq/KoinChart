@@ -1,10 +1,8 @@
-KoinChart获取k线接口
-
-
+获取k线
     - 请求方式：GET
-    - url：`https://openapi.dragonex.im/api/v1/market/kline/`
+    - url：`https://{host}/api/v1/market/kline/`
     - 传入值：
-
+    
         | 字段名 | 数据类型 | 说明 |
         | --- | --- | --- |
         | symbol_id | int | 交易对ID |
@@ -12,15 +10,14 @@ KoinChart获取k线接口
         | direction | int | 查询方向：`1`-从起始时间往后查，`2`-从起始时间往前查，默认2 |
         | count | int | 查询条数，最大100，默认10 |
         | kline_type | int | k线类型：`1`-1min线， `2`-5min线， `3`-15min线， `4`-30min线， `5`-60min线， `6`-1day线.默认`1` |
-
     - 返回值data信息：
-
+    
         | 字段名 | 数据类型 | 说明 |
         | --- | --- | --- |
         | columns | [] | 下述列表每个位置的数据代表的意义 |
         | list | [] | kline数据 |
         - list信息：
-
+        
             | 字段名 | 数据类型 | 说明 |
             | --- | --- | --- |
             | amount | string | 交易额 |
@@ -33,7 +30,7 @@ KoinChart获取k线接口
             | usdt_amount | string | 对应的USDT交易额 |
             | volume | string | 交易量 |
     - 示例
-
+    
         ```json
         {
             "columns": [
@@ -73,9 +70,7 @@ KoinChart获取k线接口
             ]
         }
         ```
-
-
-
+    
 
 
 
