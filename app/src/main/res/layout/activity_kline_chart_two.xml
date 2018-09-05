@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black0C"
+    android:orientation="vertical">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_kl"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:paddingEnd="0dp"
+            app:paddingStart="0dp"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextColor="@color/gray8B" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/cl_klHighlight"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimary"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/tl_kl"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tl_kl">
+
+            <TextView
+                android:id="@+id/tv_klOpenName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="开盘"
+                android:textColor="@color/gray8B"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_klCloseName"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="spread"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_klOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:hint="0000.0000"
+                android:text="--"
+                android:textColor="@drawable/sls_color_green_red"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klOpenName"
+                app:layout_constraintLeft_toRightOf="@id/tv_klOpenName"
+                app:layout_constraintTop_toTopOf="@id/tv_klOpenName"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_klCloseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收盘"
+                android:textColor="@color/gray8B"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="@id/tv_klOpenName"
+                app:layout_constraintTop_toBottomOf="@id/tv_klOpenName"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_klClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@drawable/sls_color_green_red"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klCloseName"
+                app:layout_constraintLeft_toLeftOf="@id/tv_klOpen"
+                app:layout_constraintTop_toTopOf="@id/tv_klCloseName"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_klHighName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:text="最高"
+                android:textColor="@color/gray8B"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klOpenName"
+                app:layout_constraintLeft_toRightOf="@id/tv_klOpen"
+                app:layout_constraintTop_toTopOf="@id/tv_klOpenName"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_klHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:hint="0000.0000"
+                android:text="--"
+                android:textColor="@drawable/sls_color_green_red"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klHighName"
+                app:layout_constraintLeft_toRightOf="@id/tv_klHighName"
+                app:layout_constraintTop_toTopOf="@id/tv_klHighName"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_klLowName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最低"
+                android:textColor="@color/gray8B"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klCloseName"
+                app:layout_constraintLeft_toLeftOf="@id/tv_klHighName"
+                app:layout_constraintTop_toBottomOf="@id/tv_klHighName"
+                app:layout_constraintTop_toTopOf="@id/tv_klCloseName" />
+
+            <TextView
+                android:id="@+id/tv_klLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@drawable/sls_color_green_red"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klLowName"
+                app:layout_constraintLeft_toLeftOf="@id/tv_klHigh"
+                app:layout_constraintTop_toTopOf="@id/tv_klLowName" />
+
+            <TextView
+                android:id="@+id/tv_klVolName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:text="成交量"
+                android:textColor="@color/gray8B"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klHighName"
+                app:layout_constraintLeft_toRightOf="@id/tv_klHigh"
+                app:layout_constraintTop_toTopOf="@id/tv_klHighName"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_klVol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:text="--"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_klVolName"
+                app:layout_constraintLeft_toRightOf="@id/tv_klVolName"
+                app:layout_constraintTop_toTopOf="@id/tv_klVolName"
+                tools:ignore="SmallSp" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <com.github.mikephil.charting.charts.CombinedChart
+            android:id="@+id/cc_kl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_klLineInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:textSize="8sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/bc_kl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

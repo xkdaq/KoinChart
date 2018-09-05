@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#081724</color>
+    <color name="colorPrimaryDark">#1F232C</color>
+    <color name="colorAccent">#00D0FC</color>
+
+    <color name="minute_grayLine">#2D3945</color>
+    <color name="minute_blue">#00D0FC</color>
+    <color name="minute_yellow">#E7B448</color>
+    <color name="minute_black">#101419</color>
+    <color name="minute_jizhun">#7F9976</color>
+    <color name="minute_zhoutv">#858D93</color>
+
+
+    <color name="black0C">#131F30</color>
+    <color name="white">#ffffff</color>
+    <color name="gray8B">#878d9b</color>
+    <color name="blue47">#477dd7</color>
+    <color name="redEB">#e76d42</color>
+    <color name="green4C">#03c087</color>
+    <color name="black3B">#3E424B</color>
+    <color name="brown">#FFBB77</color>
+    <color name="purple">#A130ED</color>
+    <color name="yellow">#EFBB40</color>
+</resources>
