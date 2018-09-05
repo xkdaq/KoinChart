@@ -104,6 +104,6 @@ list信息：
 
 >  数据来源网络,如有侵权,请联系作者删除
 
->  作者:会唱情歌的小猴子
->  email:kekemixiu@126.com
->  github:https://github.com/xkdaq
+>  作者:会唱情歌的小猴子  
+>  email:kekemixiu@126.com  
+>  github:https://github.com/xkdaq  
