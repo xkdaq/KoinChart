@@ -1,15 +1,4 @@
-KoinChart
-
-基于MPChartLib开发股票分时图、K线图
-
-MPChartLib  
-github: https://github.com/PhilJay/MPAndroidChart.git
-
-KoinChart  
-github: https://github.com/xkdaq/KoinChart  
-coding: https://coding.net/u/xkdaq/p/KoinChart/git  
-
-
+KoinChart:基于MPChartLib开发股票分时图、K线图
 
 最近制作一个炒币的app,类似于炒股的那种,网上资料很多很杂,最后使用github上面的MPAndroidChart库基本实现了功能。
 
@@ -160,8 +149,18 @@ dependencies {
 
 ```
 
- **声明**
+四、说明
 
+- 参考MPChartLib  
+github: https://github.com/PhilJay/MPAndroidChart
+
+- KoinChart    
+csdn: https://blog.csdn.net/qq_31743309/article/details/82425959  
+简书: https://www.jianshu.com/p/5526e90d5d3e  
+github: https://github.com/xkdaq/KoinChart  
+coding: https://coding.net/u/xkdaq/p/KoinChart/git  
+
+- 声明  
 >  接口数据来源网络,如有侵权,请联系作者删除
 
 >  作者:会唱情歌的小猴子  
