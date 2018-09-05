@@ -2,12 +2,12 @@ KoinChart
 
 基于MPChartLib开发股票分时图、K线图
 
-MPChartLib
+MPChartLib  
 github: https://github.com/PhilJay/MPAndroidChart.git
 
-KoinChart
-github: https://github.com/xkdaq/KoinChart
-coding: https://coding.net/u/xkdaq/p/KoinChart/git
+KoinChart  
+github: https://github.com/xkdaq/KoinChart  
+coding: https://coding.net/u/xkdaq/p/KoinChart/git  
 
 
 
@@ -48,7 +48,8 @@ dependencies {
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
 }
 ```
-二、基础实现效果图
+二、基础实现效果图  
+
 <img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_03.png" width="560" height="315" /> 
 
 <img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_01.png" width="560" height="315" />
@@ -80,14 +81,14 @@ dependencies {
 
  **返回示例**
 
-返回值data信息：  
+- 返回值data信息：  
 
 | 字段名 | 数据类型 | 说明 |
 | ----- | ----- | ---- |
 | columns | [] | 下述列表每个位置的数据代表的意义 |
 | list | [] | kline数据 |
 
-list信息：
+- list信息：
 
 | 字段名 | 数据类型 | 说明 |
 | --- | --- | --- |
