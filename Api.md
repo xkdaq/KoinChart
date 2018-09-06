@@ -3,7 +3,7 @@
 - 获取k线数据
 
 **请求URL：** 
-- ` https://openapi.dragonex.io/api/v1/market/kline/ `
+- ` https://openapi.dragonex.im/api/v1/market/kline/ `
   
 **请求方式：**
 - GET
