@@ -41,6 +41,8 @@ dependencies {
 
 <img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_01.png" width="560" height="315" />
 
+<img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_02.png" width="560" height="315" />
+
 <img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_highlight_01.png" width="560" height="315" /> 
 
 <img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_highlight_02.png" width="560" height="315" /> 
