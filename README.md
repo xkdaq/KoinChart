@@ -157,7 +157,10 @@ dependencies {
 github: https://github.com/PhilJay/MPAndroidChart
 
 - KoinChart    
-csdn: https://blog.csdn.net/qq_31743309/article/details/82425959  
+csdn: 
+[基于MPAndroidChart库制作K线图(一) —— 基础图](https://blog.csdn.net/qq_31743309/article/details/82425959)  
+[基于MPAndroidChart库制作K线图(二) —— 自定义x、y轴](https://blog.csdn.net/qq_31743309/article/details/82461714)  
+[基于MPAndroidChart库制作K线图(三) —— 手势高亮联动](https://blog.csdn.net/qq_31743309/article/details/82466078)  
 简书: https://www.jianshu.com/p/5526e90d5d3e  
 github: https://github.com/xkdaq/KoinChart  
 coding: https://coding.net/u/xkdaq/p/KoinChart/git  
