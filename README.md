@@ -39,11 +39,11 @@ dependencies {
 ```
 二、基础实现效果图  
 
-<img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_03.png" width="560" height="315" /> 
-
 <img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_01.png" width="560" height="315" />
 
-<img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_02.png" width="560" height="315" /> 
+<img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_highlight_01.png" width="560" height="315" /> 
+
+<img src="https://coding.net/u/xkdaq/p/KoinChart/git/raw/master/app/img/xk_kline_highlight_02.png" width="560" height="315" /> 
 
 三、数据接口
 
@@ -160,7 +160,7 @@ csdn: https://blog.csdn.net/qq_31743309/article/details/82425959
 github: https://github.com/xkdaq/KoinChart  
 coding: https://coding.net/u/xkdaq/p/KoinChart/git  
 
-- 声明  
+五、声明  
 >  接口数据来源网络,如有侵权,请联系作者删除
 
 >  作者:会唱情歌的小猴子  
