@@ -164,8 +164,3 @@ csdn:
 github: https://github.com/xkdaq/KoinChart    
 coding: https://coding.net/u/xkdaq/p/KoinChart/git    
 
-五、声明  
->  接口数据来源网络,如有侵权,请联系作者删除
-
->  作者:会唱情歌的小猴子  
->  email:kekemixiu@126.com  
